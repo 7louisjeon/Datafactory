@@ -1,0 +1,16 @@
+.withTime {
+  align-items: center;
+}
+
+.table {
+  border: 2px solid var(--main);
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+  display: flex;
+}
+
+.table > input,
+.table > div {
+  width: 20%;
+}

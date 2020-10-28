@@ -1,24 +1,17 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import Header from './Header'
+import Body1 from './Body1'
+import Body2 from './Body2'
 
 function App() {
+  const [data, setData] = useState(
+    [[null, 50], [null, 50], [null, 50], [null,50]]);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="app">
+      <Header/>
+      <Body1 data={data} setData={setData}/>
+      <Body2 data={data} setData={setData}/>
     </div>
   );
 }

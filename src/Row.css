@@ -1,0 +1,28 @@
+.row {
+  width: 20px;
+  height: 20px;
+}
+.none {
+  width: 20px;
+  height: 20px;
+}
+.A {
+  width: 20px;
+  height: 20px;
+  background-color: var(--A);
+}
+.B {
+  width: 20px;
+  height: 20px;
+  background-color: var(--B);
+}
+.C {
+  width: 20px;
+  height: 20px;
+  background-color: var(--C);
+}
+.D {
+  width: 20px;
+  height: 20px;
+  background-color: var(--D);
+}

@@ -1,0 +1,68 @@
+.lineGraph {
+  margin-top: 50px;
+  margin-left: 50px;
+  height: 400px;
+  width: 400px;
+  border: 2px solid var(--main);
+  display: flex;
+}
+
+.body2Left {
+  display: flex;
+}
+
+.column {
+  width: 400px;
+  height: 20px;
+  display: flex;
+}
+
+.btn {
+  width: 100px;
+  height: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  color: var(--main);
+  background-color: transparent;
+  border: 2px solid var(--main);
+  font-size: 20px;
+  outline: none;
+}
+
+.bar {
+  width: 20px;
+  height: 300px;
+  margin-left: 35px;
+  margin-right: 35px;
+  margin-top: 100px;
+  background-color: var(--main);
+}
+
+.bar1 {
+  margin-left: 55px;
+}
+
+.lineGraphMiddle {
+  display: flex;
+}
+
+.dataNames {
+  display: flex;
+  margin-left: 50px;
+}
+
+.dataNames > h3 {
+  width: 90px;
+  height: 20px;
+  text-align: center;
+}
+
+.dataName1 {
+  margin-left: 22px;
+}
+
+.box {
+  text-align: center;
+  display: flex;
+  align-items: flex-end;
+}
