@@ -10,19 +10,23 @@
   width: 20px;
   height: 20px;
   background-color: var(--A);
+  outline: 2px solid #333;
 }
 .B {
   width: 20px;
   height: 20px;
   background-color: var(--B);
+  outline: 2px solid #333;
 }
 .C {
   width: 20px;
   height: 20px;
   background-color: var(--C);
+  outline: 2px solid #333;
 }
 .D {
   width: 20px;
   height: 20px;
   background-color: var(--D);
+  outline: 2px solid #333;
 }
