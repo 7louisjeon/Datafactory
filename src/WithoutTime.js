@@ -8,7 +8,7 @@ import "./WithTime.css";
 function WithoutTime({ data, setData }) {
   return (
     <div className="withoutTime">
-      <h2>Change some data below to see the results</h2>
+      <h2>Change simple data below to see the results</h2>
       <Data1 data={data} setData={setData} />
       <Data2 data={data} setData={setData} />
       <Data3 data={data} setData={setData} />

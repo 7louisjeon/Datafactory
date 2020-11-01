@@ -2,7 +2,7 @@ import React from "react";
 import "./Body2.css";
 import Row from "./Row";
 
-function Body2({ data, setData }) {
+function Body2({ data, pageNum }) {
   const relativeValue = (x) =>
     (data[x][1] / (data[0][1] + data[1][1] + data[2][1] + data[3][1])) * 400;
   const relativeValueFactorial = (x) => {

@@ -1,7 +1,6 @@
-import React, { useState } from "react";
+import React from "react";
 import "./Data.css";
 import Slider from "@material-ui/core/Slider";
-import Grid from "@material-ui/core/Grid";
 
 function Data4({ data, setData }) {
   const handleChange = (e) => {

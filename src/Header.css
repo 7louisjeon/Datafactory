@@ -5,6 +5,10 @@
   font-size: 30px;
 }
 
+.headerLeft > h1 {
+  cursor: pointer;
+}
+
 .headerRight {
   flex: 0.2;
   align-items: center;

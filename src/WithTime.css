@@ -1,16 +1,31 @@
-.withTime {
-  align-items: center;
-}
-
 .table {
-  border: 2px solid var(--main);
-  width: 90%;
+  width: 1200px;
+  height: 322px;
   margin: auto;
   margin-top: 10px;
   display: flex;
+  justify-content: space-around;
+  transform: translateX(-7%);
 }
 
-.table > input,
-.table > div {
-  width: 20%;
+.row {
+  width: 190px;
+}
+
+.cell {
+  outline: 2px solid var(--main);
+  height: 40px;
+  width: 190px;
+  text-align: center;
+}
+
+.readOnly {
+  cursor: inherit;
+}
+
+.row > ::placeholder {
+  text-align: center;
+}
+.row1 > input {
+  text-align: center;
 }

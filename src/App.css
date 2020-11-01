@@ -4,6 +4,12 @@
   --B: #f3dfa2;
   --C: #7ebdc2;
   --D: #efe6dd;
+  --E: orange;
+  --F: orangered;
+  --G: blueviolet;
+  --H: olive;
+  --I: crimson;
+  --J: teal;
 }
 
 .app {
@@ -23,6 +29,12 @@
 }
 
 .body2 {
+  height: 500px;
+  border: 2px solid var(--main);
+  display: flex;
+}
+
+.body3 {
   height: 500px;
   border: 2px solid var(--main);
   display: flex;
