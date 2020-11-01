@@ -20,9 +20,13 @@ function Header({ setPageNum }) {
           Datafactory
         </h1>
       </div>
-      {/* <div className="headerRight">
-          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d8/Person_icon_BLACK-01.svg/1200px-Person_icon_BLACK-01.svg.png" alt=""/>
-        </div> */}
+      <div className="headerRight">
+        <h2>Developer: Eunbae Jeon</h2>
+        <br />
+        <h2>Email: wjss5115@gmail.com</h2>
+        <br />
+        <h2>Github: https://github.com/7louisjeon</h2>
+      </div>
     </div>
   );
 }

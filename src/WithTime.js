@@ -32,7 +32,7 @@ function WithTime({ data2, setData2, timeNames, setTimeNames }) {
 
   return (
     <div className="withTime">
-      <h2>Add some more complex data here</h2>
+      <h2>Edit some more complex data here</h2>
       <div className="table">
         <div className="row row1">
           <input

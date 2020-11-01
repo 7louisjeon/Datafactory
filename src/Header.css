@@ -1,6 +1,6 @@
 .headerLeft {
   display: flex;
-  flex: 0.8;
+  flex: 0.7;
   align-items: center;
   font-size: 30px;
 }
@@ -10,12 +10,8 @@
 }
 
 .headerRight {
-  flex: 0.2;
+  flex: 0.3;
   align-items: center;
-}
-
-.headerRight > img {
-  height: 100px;
-  width: 100px;
-  border: 2px solid var(--C);
+  margin-top: 40px;
+  margin-left: 100px;
 }
